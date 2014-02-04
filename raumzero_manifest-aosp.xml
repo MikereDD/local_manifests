@@ -42,6 +42,7 @@
  <remove-project name="platform/prebuilts/misc" />
  <remove-project name="platform/prebuilts/sdk" />
  <remove-project name="device/asus/grouper" />
+ <remove-project name="platform/external/bluetooth/bluedroid" />
  <remove-project name="platform/external/clang" />
  <remove-project name="platform/external/stlport" />
  <remove-project name="platform/external/skia" />
@@ -82,6 +83,7 @@
 
  <!-- external -->
  <project name="android_external_bash" path="external/bash" remote="cm" revision="cm-11.0" />
+ <project name="android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="kk4.4" />
  <project name="android_external_busybox" path="external/busybox" remote="redd" revision="android-4.4" />
  <project name="android_external_clang" path="external/clang" remote="redd" revision="android-4.4" />
  <project name="android_external_curl" path="external/curl" remote="redd" revision="kitkat" />
@@ -130,6 +132,7 @@
 
  <!-- package -->
  <project name="android_packages_apps_Apollo" path="packages/apps/Apollo" remote="cm" revision="cm-11.0" />
+ <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="slimroms" revision="kk4.4" />
  <project name="connectbot" path="packages/apps/connectbot" remote="redd" revision="master" />
  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="cm" revision="cm-11.0" />
  <project name="OctoDroid" path="packages/apps/OctoDroid" remote="redd" revision="master" />
