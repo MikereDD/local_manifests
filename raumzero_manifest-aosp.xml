@@ -64,6 +64,7 @@
  <remove-project name="platform/hardware/ti/omap4xxx" />
  <remove-project name="platform/hardware/ti/wlan" />
  <remove-project name="platform/hardware/ti/wpan" />
+ <remove-project name="platform/packages/apps/Bluetooth" />
  <remove-project name="platform/packages/apps/Launcher3" />
  <remove-project name="platform/packages/apps/Settings" />
  <remove-project name="platform/system/core" />
