@@ -34,7 +34,7 @@
           fetch="https://github.com/SlimRoms/" />
 
  <!-- remove repos -->
- <!-- remove-project name="platform/art" / -->
+ <remove-project name="platform/art" />
  <remove-project name="platform/bionic" />
  <remove-project name="platform/build" />
  <remove-project name="platform/dalvik" />
@@ -73,7 +73,7 @@
  </project>
 
  <!-- add repos -->
- <!-- project name="android_art" path="art" remote="redd" revision="kitkat44" / -->
+ <project name="android_art" path="art" remote="redd" revision="kitkat44" />
  <project name="android_bionic" path="bionic" remote="slimroms" revision="kk4.4" />
  <project name="android_dalvik" path="dalvik" remote="slimroms" revision="kk4.4" />
 
