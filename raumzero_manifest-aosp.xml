@@ -13,7 +13,7 @@
 
   <remote name="aokp"
           review="gerrit.aokp.co"
-          fetch="https://github.com/" />
+          fetch="https://github.com/AOKP/" />
 
   <remote name="slimroms"
           fetch="https://github.com/SlimRoms/" />
