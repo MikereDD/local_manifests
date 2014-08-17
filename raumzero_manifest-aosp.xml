@@ -42,7 +42,7 @@
  <remove-project name="platform/packages/apps/Settings" />
  <remove-project name="platform/system/extras" />
 
- <project name="android_build-old" path="build" groups="pdk" remote="redd" revision="android-4.4" >
+ <project name="android_build" path="build" groups="pdk" remote="redd" revision="rz-4.4.4" >
    <copyfile src="core/root.mk" dest="Makefile" />
  </project>
 
@@ -102,7 +102,7 @@
  <!-- VENDOR -->
  <project name="proprietary_vendor_asus" path="vendor/asus" remote="redd" revision="rz-4.4.4" />
  <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="redd" revision="rz-4.4.4" />
- <project name="android_vendor_raumzero" path="vendor/raumzero" remote="redd" revision="rz-44" />
+ <project name="android_vendor_raumzero" path="vendor/raumzero" remote="redd" revision="rz-4.4.4" />
 
  <!-- KERNEL -->
  <project name="android_kernel_asus_grouper" path="kernel/asus/grouper" remote="redd" revision="rz-4.4.4" />
