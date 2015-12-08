@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+    <!-- repos -->
+  <remote name="redd"
+          fetch="https://github.com/MikereDD/" />
+
+   <!-- remove repos -->
+  <remove-project name="platform_build" />
+  <remove-project name="platform_frameworks_base" />
+  <remove-project name="platform_packages_apps_Settings" />
+
+   <!-- add repos -->
+  <project name="platform_build" path="build" groups="pdk" remote="redd" revision="mm-6.0" >
+   <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project name="platform_frameworks_base" path="frameworks/base" remote="redd" revision="mm-6.0" />
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="redd" revision="mm-6.0" />
+
+</manifest>
