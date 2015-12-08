@@ -4,7 +4,7 @@
 
     <!-- repos -->
   <remote name="redd"
-          fetch="https://github.com/MikereDD/" />
+          fetch="git://git@github.com/MikereDD/" />
 
    <!-- remove repos -->
   <remove-project name="platform_build" />
