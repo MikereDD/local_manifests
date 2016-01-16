@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+    <!-- repos -->
+  <remote name="redd"
+          fetch="ssh://git@github.com/MikereDD/" />
+  <remote name="bb"
+           fetch="https://bitbucket.org/" />
+
+   <!-- remove repos -->
+   <remove-project name="android_build" />
+   <remove-project name="platform/bionic" />
+   <remove-project name="android_device_moto_shamu" />
+   <remove-project name="android_kernel_moto_shamu" />
+   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+
+   <!-- add repos -->
+  <project name="platform_build" path="build" groups="pdk" remote="redd" revision="purenexus-uber" >
+   <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project name="platform_bionic" path="bionic" remote="redd" revision="purenexus-uber" />
+  <project name="device_moto_shamu" path="device/moto/shamu" remote="redd" revision="purenexus-uber" />
+  <project name="kernel_moto_shamu" path="kernel/moto/shamu" remote="redd" revision="purenexus-uber" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="UBERTC/arm-eabi-5.2" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="UBERTC/arm-linux-androideabi-5.2" remote="bb" revision="master" />
+
+</manifest>
