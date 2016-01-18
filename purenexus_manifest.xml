@@ -14,6 +14,7 @@
    <remove-project name="android_device_moto_shamu" />
    <remove-project name="android_kernel_moto_shamu" />
    <remove-project name="android_packages_apps_Settings" />
+   <remove-project name="android_vendor_nexus" />
    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
@@ -26,6 +27,7 @@
   <project name="device_moto_shamu" path="device/moto/shamu" remote="redd" revision="purenexus-uber" />
   <project name="kernel_moto_shamu" path="kernel/moto/shamu" remote="redd" revision="purenexus-uber" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="redd" revision="purenexus-uber" />
+  <project name="android_vendor_nexus" path="vendor/nexus" remote="redd" revision="purenexus-uber" />
   <project name="arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="redd" revision="master" />
   <project name="arm-linux-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="redd" revision="master" />
   <!-- project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
