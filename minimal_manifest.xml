@@ -25,7 +25,7 @@
   <project name="platform_frameworks_base" path="frameworks/base" remote="redd" revision="mr1" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="redd" revision="mr1" />
   <project name="android_external_busybox" path="external/busybox" remote="pn" revision="mm" />
-  <project name="device_moto_shamu" path="device/moto/shamu" remote="redd" revision="mm-6.0" />
+  <project name="device_moto_shamu" path="device/moto/shamu" remote="redd" revision="mr1" />
   <project name="vendor_minimal" path="vendor/minimal" remote="redd" revision="mm-6.0" />
   <project name="arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="redd" revision="master" />
   <project name="arm-linux-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="redd" revision="master" />
