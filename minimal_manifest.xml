@@ -8,6 +8,9 @@
     <remote name="cm"
         fetch="https://github.com/Cyanogenmod/" />
 
+    <remote name="tm"
+        fetch="https://github.com/TheMuppets/" />
+
     <!-- remove repos -->
     <!-- remove-project name="android_build" / -->
     <remove-project name="device_qcom_common"/>
@@ -26,9 +29,15 @@
     <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" revision="cm-13.0"/>
     <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="cm" revision="cm-13.0"/>
     <project name="android_device_moto_shamu" path="device/moto/shamu" remote="redd" revision="mr1" />
+    <!-- project name="android_external_bash" path="external/bash" remote="cm" revision="cm-13.0" />
+    <project name="android_external_curl" path="external/curl" remote="cm" revision="cm-13.0" />
+    <project name="android_external_vim" path="external/vim" remote="cm" revision="cm-13.0" />
+    <project name="android_external_wget" path="external/wget" remote="cm" revision="cm-13.0" / -->
     <project name="arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="redd" revision="master" />
     <!-- project name="arm-linux-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="redd" revision="master" / -->
-    <project name="proprietary_vendor_moto" path="vendor/moto" remote="redd" revision="mm6.0" />
+    <!-- project name="proprietary_vendor_moto" path="vendor/motorola" remote="redd" revision="mm6.0" / -->
+    <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-13.0" />
     <project name="kernel_moto_shamu" path="kernel/moto/shamu" remote="redd" revision="mr1" />
+    <!-- project name="android_kernel_moto_shamu" path="kernel/moto/shamu" remote="cm" revision="cm-13.0" / -->
 
 </manifest>
