@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <!-- repos -->
-    <remote name="redd"
-        fetch="ssh://git@github.com/MikereDD/" />
-
-    <remote name="cm"
-        fetch="https://github.com/Cyanogenmod/" />
-
-    <remote name="tm"
-        fetch="https://github.com/TheMuppets/" />
-
-    <!-- remove repos -->
-    <!-- remove-project name="android_build" / -->
-    <remove-project name="device_qcom_common"/>
-    <remove-project name="hardware_qcom_display"/>
-    <remove-project name="hardware_qcom_audio"/>
-    <remove-project name="hardware_qcom_media"/>
-    <!-- remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" / -->
-
-   <!-- add repos -->
-   <!-- project name="android_build" path="build" groups="pdk" remote="redd" revision="mr1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-   </project -->
-
-    <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-13.0"/>
-    <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="cm" revision="cm-13.0"/>
-    <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" revision="cm-13.0"/>
-    <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="cm" revision="cm-13.0"/>
-    <project name="android_device_moto_shamu" path="device/moto/shamu" remote="redd" revision="mr1" />
-    <!-- project name="android_external_bash" path="external/bash" remote="cm" revision="cm-13.0" />
-    <project name="android_external_curl" path="external/curl" remote="cm" revision="cm-13.0" />
-    <project name="android_external_vim" path="external/vim" remote="cm" revision="cm-13.0" />
-    <project name="android_external_wget" path="external/wget" remote="cm" revision="cm-13.0" / -->
-    <project name="arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="redd" revision="master" />
-    <!-- project name="arm-linux-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="redd" revision="master" / -->
-    <!-- project name="proprietary_vendor_moto" path="vendor/motorola" remote="redd" revision="mm6.0" / -->
-    <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-13.0" />
-    <project name="kernel_moto_shamu" path="kernel/moto/shamu" remote="redd" revision="mr1" />
-    <!-- project name="android_kernel_moto_shamu" path="kernel/moto/shamu" remote="cm" revision="cm-13.0" / -->
-
+  <remote fetch="ssh://git@github.com/MikereDD/" name="redd" />
+  <remote fetch="https://github.com/Cyanogenmod/" name="cm" />
+  <remote fetch="https://github.com/TheMuppets/" name="tm" />
+  <remote fetch="https://github.com/neobuddy89/" name="neo" />
+  <!-- remove-project name="android_build" / -->
+  <remove-project name="device_qcom_common" />
+  <remove-project name="hardware_qcom_display" />
+  <remove-project name="hardware_qcom_audio" />
+  <remove-project name="hardware_qcom_media" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <!-- project groups="pdk" name="android_build" path="build" remote="redd" revision="mr1">
+    <copyfile dest="Makefile" src="core/root.mk" />
+  </project -->
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-13.0" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="cm" revision="cm-13.0" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" revision="cm-13.0" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="cm" revision="cm-13.0" />
+  <project name="android_device_moto_shamu" path="device/moto/shamu" remote="redd" revision="mr1" />
+  <project name="arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="redd" revision="master" />
+  <project name="arm-linux-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="redd" revision="master" />
+  <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-13.0" />
+  <project name="shamu" path="kernel/moto/shamu" remote="neo" revision="marshmallow" />
 </manifest>
