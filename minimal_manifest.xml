@@ -4,15 +4,11 @@
   <remote fetch="https://github.com/Cyanogenmod/" name="cm" />
   <remote fetch="https://github.com/TheMuppets/" name="tm" />
   <remote fetch="https://github.com/neobuddy89/" name="neo" />
-  <!-- remove-project name="android_build" / -->
   <remove-project name="device_qcom_common" />
   <remove-project name="hardware_qcom_display" />
   <remove-project name="hardware_qcom_audio" />
   <remove-project name="hardware_qcom_media" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <!-- project groups="pdk" name="android_build" path="build" remote="redd" revision="mr1">
-    <copyfile dest="Makefile" src="core/root.mk" />
-  </project -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-13.0" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="cm" revision="cm-13.0" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" revision="cm-13.0" />
