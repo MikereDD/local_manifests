@@ -9,6 +9,8 @@
            fetch="https://bitbucket.org/" />
   <remote name="neo"
            fetch="https://github.com/neobuddy89/" />
+  <remote name="bb"
+           fetch="https://bitbucket.org/" />
 
    <!-- remove repos -->
    <remove-project name="android_build" />
@@ -32,6 +34,8 @@
   <project name="android_vendor_nexus" path="vendor/nexus" remote="redd" revision="purenexus-uber" />
   <project name="arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="redd" revision="master" />
   <project name="arm-linux-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="redd" revision="master" />
+  <project name="MikereDD/arm-eabi-5.3-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" remote="bb" revision="master" />
+  <project name="MikereDD/arm-linux-androideabi-5.3-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" remote="bb" revision="master" />
   <!-- project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="UBERTC/arm-eabi-5.2" remote="bb" revision="master" />
