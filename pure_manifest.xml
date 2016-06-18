@@ -40,7 +40,7 @@
 
   <!-- add repos -->
 
-  <project name="platform_build_minimal_aosp" path="build" groups="pdk" remote="redd" revision="mm2" >
+  <project name="platform_build_minimal_aosp" path="build" groups="pdk" remote="redd" revision="mm2-uber" >
    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -50,6 +50,6 @@
   <project name="MikereDD/arm-eabi-5.3-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" remote="bb" revision="master" />
   <project name="MikereDD/arm-linux-androideabi-5.3-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" remote="bb" revision="master" />
   <project name="shamu" path="kernel/moto/shamu" remote="neo" revision="marshmallow" />
-  <project name="device_moto_shamu_minimal_aosp" path="device/moto/shamu" remote="redd" revision="mm2" />
+  <project name="device_moto_shamu_minimal_aosp" path="device/moto/shamu" remote="redd" revision="mm2-uber" />
 
 </manifest>
