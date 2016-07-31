@@ -6,13 +6,11 @@
           fetch="ssh://git@github.com/MikereDD/" />
   <remote name="bb"
            fetch="https://bitbucket.org/" />
-  <remote name="neo"
-           fetch="https://github.com/neobuddy89/" />
 
    <!-- remove repos -->
-   <remove-project name="android_build" />
-   <remove-project name="platform/bionic" />
-   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+   <!-- remove-project name="android_build" / -->
+   <!-- remove-project name="platform/bionic" / -->
+   <!-- remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" / -->
    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
    <remove-project name="android_device_asus_deb" />
    <remove-project name="android_device_asus_flo" />
@@ -36,22 +34,21 @@
    <remove-project name="proprietary_vendor_htc" />
    <remove-project name="proprietary_vendor_huawei" />
    <remove-project name="proprietary_vendor_lge" />
-   <remove-project name="android_device_moto_shamu" />
-   <remove-project name="proprietary_vendor_moto" />
+   <!-- remove-project name="android_device_moto_shamu" />
+   <remove-project name="proprietary_vendor_moto" / -->
 
   <!-- add repos -->
 
-  <project name="platform_build_minimal_aosp" path="build" groups="pdk" remote="redd" revision="mm2-uber" >
+  <!-- project name="platform_build_minimal_aosp" path="build" groups="pdk" remote="redd" revision="mm2-uber" >
    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  </project -->
 
-  <project name="platform_bionic" path="bionic" remote="redd" revision="purenexus-uber" />
+  <!-- project name="platform_bionic" path="bionic" remote="redd" revision="purenexus-uber" / -->
   <project name="arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="redd" revision="master" />
   <project name="arm-linux-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="redd" revision="master" />
   <project name="MikereDD/arm-eabi-5.3-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" remote="bb" revision="master" />
   <project name="MikereDD/arm-linux-androideabi-5.3-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" remote="bb" revision="master" />
-  <!-- project name="shamu" path="kernel/moto/shamu" remote="neo" revision="marshmallow" / -->
-  <project name="device_moto_shamu_minimal_aosp" path="device/moto/shamu" remote="redd" revision="mm2-uber" />
-  <project name="proprietary_vendor_moto" path="vendor/moto" remote="redd" revision="mm6.0" />
+  <!-- project name="device_moto_shamu_minimal_aosp" path="device/moto/shamu" remote="redd" revision="mm2-uber" / -->
+  <!-- project name="proprietary_vendor_moto" path="vendor/moto" remote="redd" revision="mm6.0" / -->
 
 </manifest>
