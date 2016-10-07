@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- remove repos -->
+    <!-- device -->
+    <remove-project name="device_huawei_angler" />
+    <remove-project name="device_lge_bullhead" />
+    <remove-project name="device_lge_hammerhead" />
+    <!-- kernel -->
+    <remove-project name="DespairFactor/angler" />
+    <remove-project name="DespairFactor/bullhead" />
+    <remove-project name="kernel_lge_hammerhead" />
+    <!-- vendor -->
+    <remove-project name="vendor_huawei" />
+    <remove-project name="vendor_lge" />
+    <!-- remove-project name="" / -->
+
+</manifest>
