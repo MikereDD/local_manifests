@@ -64,7 +64,7 @@
   <!-- project name="frameworks_base" path="frameworks/base" remote="me" revision="nougat" / -->
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="me" revision="nougat" />
   <project name="device_moto_shamu" path="device/moto/shamu" remote="me" revision="nougat" />
-  <project name="vendor_aka" path="vendor/aka" remote="me" revision="nougat" />
+  <project name="vendor_aka" path="vendor/aka" remote="me" revision="master" />
   <project name="UBERROMS/system_core" path="system/core" remote="gh" revision="master" />
   <project name="UBERROMS/packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_Dialer" path="packages/apps/Dialer" remote="gh" revision="master" />
