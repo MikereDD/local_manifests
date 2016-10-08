@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="gh"
+      fetch="https://github.com/" />
+
     <!-- remove repos -->
     <!-- device -->
     <remove-project name="device_huawei_angler" />
@@ -13,6 +16,11 @@
     <!-- vendor -->
     <remove-project name="vendor_huawei" />
     <remove-project name="vendor_lge" />
-    <!-- remove-project name="" / -->
+    <!-- toolchains -->
+    <remove-project name="DespairFactor/arm-eabi-4.9" />
+
+    <!-- add repos -->
+    <!-- toolchains -->
+    <project name="MikereDD/arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="gh" revision="master" />
 
 </manifest>
