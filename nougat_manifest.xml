@@ -51,10 +51,7 @@
   <remove-project name="device/moto/shamu" />
   <remove-project name="platform/build" />
 
-
-
   <!-- add repos -->
-
   <project name="build" path="build" groups="pdk" remote="me" revision="master" >
          <copyfile src="core/root.mk" dest="Makefile" />
      </project>
@@ -103,6 +100,6 @@
   <project name="UBERROMS/dalvik" path="dalvik" remote="gh" revision="master" />
   <project name="UBERROMS/hardware_qcom_audio" path="hardware/qcom/audio" remote="gh" revision="master" />
   <project name="UBERROMS/external_chromium-webview" path="external/chromium-webview" remote="gh" revision="master" />
-  <project name="UBERROMS/packages_apps_Exchange2" path="packages/apps/Exchange2"  remote="gh" />
+  <project name="UBERROMS/packages_apps_Exchange2" path="packages/apps/Exchange2"  remote="gh" revision="master"/>
 
 </manifest>
