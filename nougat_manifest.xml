@@ -46,10 +46,10 @@
   <remove-project name="platform/dalvik" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/external/chromium-webview" />
-  <remove-project name="platform/frameworks/base" />
+  <!-- remove-project name="platform/frameworks/base" / -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="device/moto/shamu" />
-  <remove-project name="platform/tools/build" />
+  <remove-project name="platform/build" />
 
 
 
@@ -64,7 +64,7 @@
   <project name="DespairFactor/N6" path="kernel/moto/shamu" remote="gh" revision="N" />
   <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="gh" revision="master" />
   <project name="UBERROMS/vendor_moto_shamu" path="vendor/moto/shamu" remote="gh" revision="master" />
-  <project name="frameworks_base" path="frameworks/base" remote="me" revision="nougat" />
+  <!-- project name="frameworks_base" path="frameworks/base" remote="me" revision="nougat" / -->
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="me" revision="nougat" />
   <project name="device_moto_shamu" path="device/moto/shamu" remote="me" revision="nougat" />
   <project name="vendor_aka" path="vendor/aka" remote="me" revision="nougat" />
