@@ -101,5 +101,6 @@
   <project name="UBERROMS/hardware_qcom_audio" path="hardware/qcom/audio" remote="gh" revision="master" />
   <project name="UBERROMS/external_chromium-webview" path="external/chromium-webview" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_Exchange2" path="packages/apps/Exchange2"  remote="gh" revision="master"/>
+  <project name="DespairFactor/sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="bb" revision="master" />
 
 </manifest>
