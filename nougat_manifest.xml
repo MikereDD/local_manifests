@@ -57,7 +57,7 @@
      </project>
 
   <project name="BenzoRoms/external_busybox" path="external/busybox" remote="gh" revision="nougat" />
-  <project name="MikereDD/arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="gh" revision="master" />
+  <project name="DespairFactor/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
   <project name="DespairFactor/N6" path="kernel/moto/shamu" remote="gh" revision="N" />
   <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="gh" revision="master" />
   <project name="UBERROMS/vendor_moto_shamu" path="vendor/moto/shamu" remote="gh" revision="master" />
