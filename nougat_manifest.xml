@@ -50,6 +50,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
   <!-- add repos -->
   <project name="build" path="build" groups="pdk" remote="me" revision="master" >
@@ -58,6 +59,9 @@
 
   <project name="BenzoRoms/external_busybox" path="external/busybox" remote="gh" revision="nougat" />
   <project name="DespairFactor/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
+  <project name="DespairFactor/arm-eabi-5.x" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0" remote="bb" revision="master" />
+  <project name="DespairFactor/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project name="DespairFactor/arm-linux-androideabi-5.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" remote="bb" revision="master" />
   <project name="DespairFactor/N6" path="kernel/moto/shamu" remote="gh" revision="N" />
   <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="gh" revision="master" />
   <project name="UBERROMS/vendor_moto_shamu" path="vendor/moto/shamu" remote="gh" revision="master" />
