@@ -17,10 +17,10 @@
     <remove-project name="vendor_huawei" />
     <remove-project name="vendor_lge" />
     <!-- toolchains -->
-    <remove-project name="DespairFactor/arm-eabi-4.9" />
+    <!-- remove-project name="DespairFactor/arm-eabi-4.9" / -->
 
     <!-- add repos -->
     <!-- toolchains -->
-    <project name="MikereDD/arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="gh" revision="master" />
+    <!-- project name="MikereDD/arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="gh" revision="master" / -->
 
 </manifest>
