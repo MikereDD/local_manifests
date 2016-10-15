@@ -23,16 +23,20 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/ContactsCommon" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/packages/apps/Messaging" />
+  <!-- remove-project name="platform/packages/apps/Messaging" / -->
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/guava" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
@@ -47,6 +51,7 @@
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="platform/build" />
@@ -98,6 +103,7 @@
   <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="gh" revision="master" />
   <project name="UBERROMS/vendor_moto_shamu" path="vendor/moto" remote="gh" revision="master" />
   <project name="frameworks_base" path="frameworks/base" remote="me" revision="master" />
+  <project name="UBERROMS/frameworks_av" path="frameworks/av" remote="gh" revision="master" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="me" revision="nougat" />
   <project name="device_moto_shamu" path="device/moto/shamu" remote="me" revision="nougat" />
   <project name="vendor_aka" path="vendor/aka" remote="me" revision="master" />
@@ -113,16 +119,21 @@
   <project name="UBERROMS/external_sqlite" path="external/sqlite" remote="gh" revision="master" />
   <project name="UBERROMS/packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="gh" revision="master" />
   <project name="UBERROMS/packages_services_Telecomm" path="packages/services/Telecomm" remote="gh" revision="master" />
+  <project name="UBERROMS/packages_services_Telephony" path="packages/services/Telephony" remote="gh" revision="master" />
   <project name="UBERROMS/external_e2fsprogs" path="external/e2fsprogs" remote="gh" revision="master" />
   <project name="UBERROMS/hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="gh" revision="master" />
   <project name="UBERROMS/frameworks_support" path="frameworks/support" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_Contacts" path="packages/apps/Contacts" remote="gh" revision="master" />
+  <project name="UBERROMS/packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="gh" revision="master" />
+  <project name="UBERROMS/packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="gh" revision="master" />
+  <project name="UBERROMS/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="gh" revision="master" />
   <project name="UBERROMS/hardware_qcom_display" path="hardware/qcom/display" remote="gh" revision="master" />
+  <project name="UBERROMS/packages_apps_Launcher3" path="packages/apps/Launcher3" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_MusicFX" path="packages/apps/MusicFX" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="gh" revision="master" />
   <project name="UBERROMS/system_sepolicy" path="system/sepolicy" remote="gh" revision="master" />
-  <project name="UBERROMS/packages_apps_Messaging" path="packages/apps/Messaging" remote="gh" revision="master" />
+  <!-- project name="UBERROMS/packages_apps_Messaging" path="packages/apps/Messaging" remote="gh" revision="master" / -->
   <project name="UBERROMS/external_proguard" path="external/proguard" remote="gh" revision="master" />
   <project name="UBERROMS/external_guava" path="external/guava" remote="gh" revision="master" />
   <project name="UBERROMS/packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="gh" revision="master" />
