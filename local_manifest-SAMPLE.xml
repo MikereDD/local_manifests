@@ -9,7 +9,7 @@
           fetch="https://bitbucket.org/" />
   <remote name="gh"
           fetch="https://github.com/" />
- <!-- use your personal repos via ssh instead og https -->
+ <!-- use your personal repos via ssh instead of https -->
   <remote name="me"
           fetch="ssh://git@github.com/AddUserName/" />
 
