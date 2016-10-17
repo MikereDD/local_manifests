@@ -52,6 +52,7 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="platform/build" />
@@ -88,6 +89,7 @@
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/google/atv" />
   <remove-project name="platform/prebuilts/ninja/linux-x86" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
   <!-- add repos -->
   <project name="build" path="build" groups="pdk" remote="me" revision="master" >
@@ -104,6 +106,7 @@
   <project name="UBERROMS/vendor_moto_shamu" path="vendor/moto" remote="gh" revision="master" />
   <project name="frameworks_base" path="frameworks/base" remote="me" revision="master" />
   <project name="UBERROMS/frameworks_av" path="frameworks/av" remote="gh" revision="master" />
+  <project name="UBERROMS/frameworks_rs" path="frameworks/rs" remote="gh" revision="master" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="me" revision="nougat" />
   <project name="device_moto_shamu" path="device/moto/shamu" remote="me" revision="nougat" />
   <project name="vendor_aka" path="vendor/aka" remote="me" revision="master" />
@@ -149,6 +152,7 @@
   <project name="UBERROMS/external_chromium-webview" path="external/chromium-webview" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_Exchange2" path="packages/apps/Exchange2"  remote="gh" revision="master"/>
   <project name="DespairFactor/sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="bb" revision="master" />
+  <project name="DespairFactor/uberclang-3.8" path="prebuilts/clang/host/linux-x86/3.8" remote="bb" revision="master" />
   <project name="UBERROMS/prebuilts_ninja_linux-x86" path="prebuilts/ninja/linux-x86" remote="gh" revision="master" />
 
 </manifest>
