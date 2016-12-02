@@ -103,7 +103,6 @@
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
-  <remove-project name="platform/prebuilts/sdk" />
   <remove-project name="platform/system/vold" />
 
   <!-- add repos -->
@@ -180,7 +179,7 @@
   <project name="UBERROMS/frameworks_compile_libbcc" path="frameworks/compile/libbcc" remote="gh" revision="master" />
   <project name="UBERROMS/frameworks_compile_mclinker" path="frameworks/compile/mclinker" remote="gh" revision="master" />
   <project name="UBERROMS/frameworks_compile_slang" path="frameworks/compile/slang" remote="gh" revision="master" />
-  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="master" />
+  <!-- project name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="master" / -->
   <project name="UBERROMS/external_jemalloc" path="external/jemalloc" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_Gallery2" path="packages/apps/Gallery2" remote="gh" revision="master" />
   <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" remote="aosp" revision="master" />
