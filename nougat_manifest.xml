@@ -103,6 +103,9 @@
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <remove-project name="platform/system/vold" />
 
   <!-- add repos -->
   <project name="build" path="build" groups="pdk" remote="me" revision="master" >
@@ -164,7 +167,7 @@
   <project name="UBERROMS/hardware_qcom_audio" path="hardware/qcom/audio" remote="gh" revision="master" />
   <project name="UBERROMS/external_chromium-webview" path="external/chromium-webview" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_Exchange2" path="packages/apps/Exchange2"  remote="gh" revision="master"/>
-  <project name="mdalexca/sdclang-3.8" path="prebuilts/clang/host/linux-x86/sdclang-3.8" remote="bb" revision="master" />
+  <!-- project name="mdalexca/sdclang-3.8" path="prebuilts/clang/host/linux-x86/sdclang-3.8" remote="bb" revision="master" / -->
   <!-- project name="mdalexca/uberclang-3.8" path="prebuilts/clang/host/linux-x86/uber-3.8" remote="bb" revision="master" / -->
   <project name="UBERROMS/prebuilts_ninja_linux-x86" path="prebuilts/ninja/linux-x86" remote="gh" revision="master" />
   <project name="UBERROMS/external_pdfium" path="external/pdfium" remote="gh" revision="master" />
@@ -182,5 +185,8 @@
   <project name="UBERROMS/external_jemalloc" path="external/jemalloc" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_Gallery2" path="packages/apps/Gallery2" remote="gh" revision="master" />
   <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" remote="aosp" revision="master" />
+  <project name="uberroms/linux-x86_3.9.1" path="prebuilts/clang/host/linux-x86/3.9.1" remote="bb" revision="master" />
+  <project name="uberroms/sdk" path="prebuilts/sdk" remote="bb" revision="master" />
+  <project name="UBERROMS/system_vold" path="system/vold" remote="gh" revision="master" />
 
 </manifest>
