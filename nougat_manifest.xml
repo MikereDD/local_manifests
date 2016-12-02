@@ -103,7 +103,6 @@
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
-  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/sdk" />
   <remove-project name="platform/system/vold" />
 
