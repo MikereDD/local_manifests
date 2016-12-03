@@ -183,7 +183,7 @@
   <project name="UBERROMS/external_jemalloc" path="external/jemalloc" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_Gallery2" path="packages/apps/Gallery2" remote="gh" revision="master" />
   <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" remote="aosp" revision="master" />
-  <project name="uberroms/linux-x86_3.9.1" path="prebuilts/clang/host/linux-x86/3.9.1" remote="bb" revision="master" />
+  <project name="uberroms/clang_linux-x86_3.9.1" path="prebuilts/clang/host/linux-x86/3.9.1" remote="bb" revision="master" />
   <project name="uberroms/sdk" path="prebuilts/sdk" remote="bb" revision="master" />
   <project name="UBERROMS/system_vold" path="system/vold" remote="gh" revision="master" />
 
