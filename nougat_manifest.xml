@@ -112,9 +112,11 @@
 
   <project name="BenzoRoms/external_busybox" path="external/busybox" remote="gh" revision="nougat" />
   <project name="mdalexca/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
+  <project name="mdalexca/arm-eabi-5.x" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x" remote="bb" revision="master" />
   <project name="mdalexca/arm-eabi-6.x" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" remote="bb" revision="master" />
   <project name="mdalexca/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project name="mdalexca/arm-linux-androideabi-5.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" remote="bb" revision="master" />
+  <project name="mdalexca/arm-linux-androideabi-5.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" remote="bb" revision="master" />
   <project name="mdalexca/N6" path="kernel/moto/shamu" remote="gh" revision="N" />
   <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="gh" revision="master" />
   <project name="UBERROMS/vendor_moto_shamu" path="vendor/moto" remote="gh" revision="master" />
@@ -184,7 +186,7 @@
   <project name="UBERROMS/packages_apps_Gallery2" path="packages/apps/Gallery2" remote="gh" revision="master" />
   <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" remote="aosp" revision="master" />
   <project name="uberroms/clang_linux-x86_3.9.1" path="prebuilts/clang/host/linux-x86/3.9.1" remote="bb" revision="master" />
-  <project name="uberroms/sdk" path="prebuilts/sdk" remote="bb" revision="master" />
+  <project name="UBERROMS/prebuilts_sdk" path="prebuilts/sdk" remote="gh" revision="master" />
   <project name="UBERROMS/system_vold" path="system/vold" remote="gh" revision="master" />
 
 </manifest>
