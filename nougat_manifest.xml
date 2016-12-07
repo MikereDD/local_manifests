@@ -116,9 +116,9 @@
   <project name="mdalexca/arm-eabi-6.x" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" remote="bb" revision="master" />
   <project name="mdalexca/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project name="mdalexca/arm-linux-androideabi-5.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" remote="bb" revision="master" />
-  <project name="mdalexca/arm-linux-androideabi-5.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" remote="bb" revision="master" />
+  <project name="mdalexca/arm-linux-androideabi-6.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" remote="bb" revision="master" />
   <project name="mdalexca/N6" path="kernel/moto/shamu" remote="gh" revision="N" />
-  <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="gh" revision="master" />
+  <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="gh" revision="n" />
   <project name="UBERROMS/vendor_moto_shamu" path="vendor/moto" remote="gh" revision="master" />
   <project name="frameworks_base" path="frameworks/base" remote="me" revision="master" />
   <project name="UBERROMS/frameworks_av" path="frameworks/av" remote="gh" revision="master" />
@@ -167,7 +167,7 @@
   <project name="UBERROMS/hardware_qcom_audio" path="hardware/qcom/audio" remote="gh" revision="master" />
   <project name="UBERROMS/external_chromium-webview" path="external/chromium-webview" remote="gh" revision="master" />
   <project name="UBERROMS/packages_apps_Exchange2" path="packages/apps/Exchange2"  remote="gh" revision="master"/>
-  <!-- project name="mdalexca/sdclang-3.8" path="prebuilts/clang/host/linux-x86/sdclang-3.8" remote="bb" revision="master" / -->
+  <project name="mdalexca/sdclang-3.8" path="prebuilts/clang/host/linux-x86/sdclang-3.8" remote="bb" revision="master" />
   <!-- project name="mdalexca/uberclang-3.8" path="prebuilts/clang/host/linux-x86/uber-3.8" remote="bb" revision="master" / -->
   <project name="UBERROMS/prebuilts_ninja_linux-x86" path="prebuilts/ninja/linux-x86" remote="gh" revision="master" />
   <project name="UBERROMS/external_pdfium" path="external/pdfium" remote="gh" revision="master" />
