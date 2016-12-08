@@ -104,6 +104,7 @@
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/external/f2fs-tools" />
 
   <!-- add repos -->
   <project name="build" path="build" groups="pdk" remote="me" revision="master" >
@@ -188,5 +189,6 @@
   <project name="uberroms/clang_linux-x86_3.9.1" path="prebuilts/clang/host/linux-x86/3.9.1" remote="bb" revision="master" />
   <project name="UBERROMS/prebuilts_sdk" path="prebuilts/sdk" remote="gh" revision="master" />
   <project name="UBERROMS/system_vold" path="system/vold" remote="gh" revision="master" />
+  <project name="UBERROMS/external_f2fs-tools" path="external/f2fs-tools" remote="gh" revision="master" />
 
 </manifest>
