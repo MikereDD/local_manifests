@@ -28,7 +28,7 @@
   <project path="vendor/pure" name="android_vendor_pure" groups="pdk" remote="surge" revision="android-8.1" />
   <project path="vendor/google" name="proprietary_vendor_google" groups="pdk" remote="cb" revision="android-8.1" />
   <project path="vendor/nexus" name="abc_vendor_nexus" groups="pdk" remote="surge" revision="o2" />
-  <project path="vendor/pixel-gapps" name="android_vendor_pixelgapps" groups="pdk" remote="my" revision="android-8.1" />
+  <project path="vendor/pixel-gapps" name="android_vendor_pixelgapps" groups="pdk" remote="my" revision="cr-6.1" />
 
   <!-- Device Source -->
 
