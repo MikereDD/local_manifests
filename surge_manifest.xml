@@ -7,26 +7,28 @@
            fetch="https://github.com/PureNexusProject/" />
   <remote name="cb"
            fetch="https://github.com/CheekyBastards/" />
+  <remote name="my"
+           fetch="https://github.com/Myself5/" />
   <remote  name="msm"
            fetch="https://android.googlesource.com/kernel/"
            sync-c="true"
            sync-j="8" />
   <remote name="surge"
-           fetch="https://github.com/Surge1223/" 
+           fetch="https://github.com/Surge1223/"
            sync-c="true"
            sync-j="8" />
 
   <!-- Removes -->
   <remove-project name="abc_frameworks_base" />
   <remove-project name="abc_packages_apps_Settings" />
+  <remove-project name="abc_vendor_nexus" />
 
   <!-- Vendor Source -->
 
   <project path="vendor/pure" name="android_vendor_pure" groups="pdk" remote="surge" revision="android-8.1" />
   <project path="vendor/google" name="proprietary_vendor_google" groups="pdk" remote="cb" revision="android-8.1" />
-
-
-<project path="vendor/nexus" name="abc_vendor_nexus" groups="pdk" remote="surge" revision="o2" />
+  <project path="vendor/nexus" name="abc_vendor_nexus" groups="pdk" remote="surge" revision="o2" />
+  <project path="vendor/pixel-gapps" name="android_vendor_pixelgapps" groups="pdk" remote="my" revision="android-8.1" />
 
   <!-- Device Source -->
 
