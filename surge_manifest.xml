@@ -12,7 +12,7 @@
            sync-c="true"
            sync-j="8" />
   <remote name="surge"
-           fetch="https://github.com/Surge1223/"
+           fetch="https://github.com/Surge1223/" 
            sync-c="true"
            sync-j="8" />
 
@@ -25,6 +25,9 @@
   <project path="vendor/pure" name="android_vendor_pure" groups="pdk" remote="surge" revision="android-8.1" />
   <project path="vendor/google" name="proprietary_vendor_google" groups="pdk" remote="cb" revision="android-8.1" />
 
+
+<project path="vendor/nexus" name="abc_vendor_nexus" groups="pdk" remote="surge" revision="o2" />
+
   <!-- Device Source -->
 
   <project path="device/google/taimen" name="android_device_google_taimen" groups="pdk" remote="surge" revision="o-mr1" />
@@ -35,7 +38,8 @@
 
   <!-- Platform Source -->
 
-  <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="surge" revision="o2"  />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="surge" revision="android-8.1"  />
   <project path="packages/apps/Settings" name="abc_packages_apps_Settings"  remote="surge" revision="android-8.1"  />
+ <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="easel"  remote="aosp" />
 
 </manifest>
