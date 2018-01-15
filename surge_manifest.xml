@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+  <remote name="pure"
+           fetch="https://github.com/PureNexusProject/" />
+  <remote name="cb"
+           fetch="https://github.com/CheekyBastards/" />
+  <remote  name="msm"
+           fetch="https://android.googlesource.com/kernel/"
+           sync-c="true"
+           sync-j="8" />
+  <remote name="surge"
+           fetch="https://github.com/Surge1223/"
+           sync-c="true"
+           sync-j="8" />
+
+  <!-- Removes -->
+  <remove-project name="abc_frameworks_base" />
+  <remove-project name="abc_packages_apps_Settings" />
+
+  <!-- Vendor Source -->
+
+  <project path="vendor/pure" name="android_vendor_pure" groups="pdk" remote="surge" revision="android-8.1" />
+  <project path="vendor/google" name="proprietary_vendor_google" groups="pdk" remote="cb" revision="android-8.1" />
+
+  <!-- Device Source -->
+
+  <project path="device/google/taimen" name="android_device_google_taimen" groups="pdk" remote="surge" revision="o-mr1" />
+  <project path="device/google/wahoo" name="android_device_google_wahoo" groups="pdk" remote="surge" revision="android-8.1" />
+
+  <!-- Kernel Source -->
+  <project  path="kernel/google/taimen" name="android_kernel_google_taimen" groups="device,angler,broadcom_pdk" remote="surge" revision="android-msm-wahoo-4.4-oreo-mr1" />
+
+  <!-- Platform Source -->
+
+  <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="surge" revision="o2"  />
+  <project path="packages/apps/Settings" name="abc_packages_apps_Settings"  remote="surge" revision="android-8.1"  />
+
+</manifest>
