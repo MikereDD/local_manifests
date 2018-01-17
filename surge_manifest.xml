@@ -3,8 +3,6 @@
 
   <remote  name="github"
            fetch="https://github.com" />
-  <remote name="pure"
-           fetch="https://github.com/PureNexusProject/" />
   <remote name="cb"
            fetch="https://github.com/CheekyBastards/" />
   <remote name="my"
