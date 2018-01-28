@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="my"
+           fetch="https://github.com/Myself5/" />
+  <remote name="obsd"
+           fetch="https://github.com/obsd39/" />
+  <remote name="og"
+           fetch="https://github.com/opengapps/"  />
+
+  <!-- Vendor Source -->
+
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="my" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="og" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="my" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="my" />
+  <project path="vendor/google" name="proprietary_vendor_google" groups="pdk" remote="obsd" revision="cr-6.1" />
+
+</manifest>
