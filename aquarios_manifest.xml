@@ -20,7 +20,7 @@
   <project  path="kernel/moto/shamu" name="android_kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="cam" revision="Ox" />
 
   <!-- vendor source -->
-  <project path="vendor/moto" name="android_vendor_motorola" groups="pdk" remote="me" revision="O" />
+  <project path="vendor/moto" name="proprietary_vendor_motorola" groups="pdk" remote="me" revision="O" />
 
 </manifest>
 
