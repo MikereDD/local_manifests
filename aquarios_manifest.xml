@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="me"
+           fetch="https://github.com/MikereDD/" />
+
+  <remote name="cam"
+           fetch="https://github.com/camcory/" />
+
+  <!-- removes -->
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+
+  <!-- device source -->
+  <project path="device/moto/shamu" name="android_device_moto_shamu" groups="pdk" remote="me" revision="8.x" />
+
+  <!-- hardware source -->
+  <project path="hardware/qcom/msm8x84" name="android_hardware_qcom_msm8x84" groups="qcom_msm8x84,pdk" remote="me" revision="8.x"  />
+
+  <!-- kernel source -->
+  <project  path="kernel/moto/shamu" name="android_kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="cam" revision="Ox" />
+
+  <!-- vendor source -->
+  <project path="vendor/moto" name="android_vendor_motorola" groups="pdk" remote="me" revision="O" />
+
+</manifest>
+
