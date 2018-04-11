@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="me"
+           fetch="https://github.com/MikereDD/" />
+
+  <remote name="surge"
+          fetch="https://github.com/Surge1223/" />
+
+   <remote name="gitlab"
+          fetch="https://gitlab.com/Surge1223/" />
+
+   <remote name="rashed87"
+          fetch="https://github.com/Rashed97/" />
+
+  <!-- removes -->
+  <remove-project name="vendor_aquarios" />
+
+  <!-- device source -->
+  <project path="device/huawei/berkeley" name="android_device_huawei_berkeley" groups="pdk" remote="me" revision="8.x" />
+
+  <!-- hardware source -->
+  <!-- project path="hardware/huawei/telephony" name="android_hardware_huawei_telephony" groups="" remote="rashed97" revision="lineage-15.1" / -->
+
+  <!-- kernel source -->
+  <project path="kernel/huawei/berkeley" name="android_kernel_huawei_berkeley" groups="device,berkeley,broadcom_pdk" remote="surge" revision="o" />
+
+  <!-- vendor source -->
+  <project path="vendor/huawei/berkeley" name="proprietary_vendor_huawei_berkeley" groups="pdk" remote="me" revision="8.x" />
+  <project path="vendor/aquarios" name="vendor_aquarios" remote="me" revision="a8.1.0-caf" />
+  <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="gitlab" revision="o-mr1" />
+
+</manifest>
