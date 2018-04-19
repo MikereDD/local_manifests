@@ -20,11 +20,11 @@
   <remove-project name="" />
 
  <!-- add/replace custom repos -->
-  <project name="" path="" remote="bb" revision="" />
-  <project name="" path="" remote="bb" revision="" />
-  <project name="" path="" remote="gh" revision="" />
-  <project name="" path="" remote="gh" revision="" />
-  <project name="" path="" remote="me" revision="" />
-  <project name="" path="" remote="me" revision="" />
+  <project path="" name=""  remote="bb" revision="" />
+  <project path="" name=""  remote="bb" revision="" />
+  <project path="" name=""  remote="gh" revision="" />
+  <project path="" name=""  remote="gh" revision="" />
+  <project path="" name=""  remote="me" revision="" />
+  <project path="" name=""  remote="me" revision="" />
 
 </manifest>
