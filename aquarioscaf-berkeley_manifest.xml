@@ -20,6 +20,6 @@
   <project path="vendor/huawei" name="proprietary_vendor_huawei"  remote="gh" revision="a8.1.0-caf" />
 
   <!-- kernel source -->
-  <project path="kernel/huawei/berkeley" name="android_kernel_huawei_berkeley"  remote="moepda" revision="o8x" />
+  <project path="kernel/huawei/berkeley" name="android_kernel_huawei_berkeley"  remote="moepda" revision="o8x-caf" />
 
 </manifest>
