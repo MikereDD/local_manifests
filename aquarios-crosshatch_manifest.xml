@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote name="me"
+          fetch="https://github.com/MikereDD/" />
+
+  <remote name="du"
+          revision="p9x"
+          fetch="https://github.com/DirtyUnicorns/" />
+
+  <!-- Removes -->
+
+  <!-- Device -->
+  <project path="device/google/crosshatch" name="android_device_google_crosshatch" remote="me" revision="p9x" />
+  <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch" />
+
+  <!-- Kernel -->
+  <project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch" clone-depth="1" />
+  <project path="kernel/google/blueline" name="android_kernel_google_bluecross" remote="du" />
+
+  <!-- Vendor -->
+  <project path="vendor/google/crosshatch" name="android_vendor_google_crosshatch" remote="me" revision="pie" />
+
+</manifest>
