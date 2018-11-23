@@ -18,7 +18,7 @@
 
   <!-- Kernel -->
   <!-- project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch" clone-depth="1" / -->
-  <project path="kernel/google/blueline" name="android_kernel_google_bluecross" remote="du" />
+  <project path="kernel/google/bluecross" name="android_kernel_google_bluecross" remote="du" />
 
   <!-- Vendor -->
   <project path="vendor/google/crosshatch" name="android_vendor_google_crosshatch" remote="me" revision="pie" />
