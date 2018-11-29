@@ -10,7 +10,7 @@
           fetch="https://github.com/DirtyUnicorns/" />
 
   <!-- Removes -->
-  <remove-project name="vendor_aquarios" />
+  <!-- remove-project name="vendor_aquarios" / -->
 
   <!-- Device -->
   <project path="device/google/crosshatch" name="android_device_google_crosshatch" remote="me" revision="p9x" />
