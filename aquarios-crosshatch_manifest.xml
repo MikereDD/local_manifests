@@ -21,7 +21,7 @@
   <project path="kernel/google/bluecross" name="android_kernel_google_bluecross" remote="du" />
 
   <!-- Vendor -->
-  <project path="vendor/google/crosshatch" name="android_vendor_google_crosshatch" remote="me" revision="pie" />
-  <project path="vendor/aquarios" name="vendor_aquarios" remote="me" revision="a9" />
+  <!-- project path="vendor/google/crosshatch" name="android_vendor_google_crosshatch" remote="me" revision="pie" />
+  <project path="vendor/aquarios" name="vendor_aquarios" remote="me" revision="a9" / -->
 
 </manifest>
