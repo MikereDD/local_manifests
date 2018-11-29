@@ -13,7 +13,7 @@
   <!-- remove-project name="vendor_aquarios" / -->
 
   <!-- Device -->
-  <project path="device/google/crosshatch" name="android_device_google_crosshatch" remote="me" revision="p9x" />
+  <project path="device/google/crosshatch" name="device_google_crosshatch" remote="me" revision="p9x" />
   <project path="device/google/crosshatch-sepolicy" name="android_device_google_crosshatch-sepolicy" remote="du" groups="device,crosshatch" />
 
   <!-- Kernel -->
