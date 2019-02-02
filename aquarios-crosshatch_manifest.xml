@@ -9,21 +9,25 @@
           revision="p9x"
           fetch="https://github.com/DirtyUnicorns/" />
 
-  <remote name="df"
-          revision="pie"
-          fetch="https://github.com/DespairFactor/" />
+  <remote name="gl"
+          revision="a9"
+          fetch="https://gitlab.com/MikereDD/" />
 
   <!-- Removes -->
+  <remove-project name="kernel_google_bluecross" />
   <!-- remove-project name="vendor_aquarios" / -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
   <!-- Device -->
-  <project path="device/google/crosshatch" name="device_google_crosshatch" remote="me" revision="p9x" />
-  <project path="device/google/crosshatch-sepolicy" name="android_device_google_crosshatch-sepolicy" remote="du" groups="device,crosshatch" />
+  <!-- project path="device/google/crosshatch" name="device_google_crosshatch" remote="me" revision="p9x" />
+  <project path="device/google/crosshatch-sepolicy" name="android_device_google_crosshatch-sepolicy" remote="du" groups="device,crosshatch" / -->
+
+  <!-- Prebuilt -->
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="gl" groups="pdk" />
 
   <!-- Kernel -->
   <!-- project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch" clone-depth="1" / -->
-  <!-- project path="kernel/google/bluecross" name="android_kernel_google_bluecross" remote="du" / -->
-  <project path="kernel/google/bluecross" name="bluecross" remote="df" />
+  <project path="kernel/google/bluecross" name="android_kernel_google_bluecross" remote="du" />
 
   <!-- Vendor -->
   <!-- project path="vendor/google/crosshatch" name="android_vendor_google_crosshatch" remote="me" revision="pie" />
