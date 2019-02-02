@@ -23,7 +23,7 @@
   <project path="device/google/crosshatch-sepolicy" name="android_device_google_crosshatch-sepolicy" remote="du" groups="device,crosshatch" / -->
 
   <!-- Prebuilt -->
-  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="gl" groups="pdk" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="gl" groups="pdk" />
 
   <!-- Kernel -->
   <!-- project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch" clone-depth="1" / -->
