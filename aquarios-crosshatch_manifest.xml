@@ -7,18 +7,23 @@
           fetch="https://github.com/MikereDD/" />
 
   <!-- Gitlab -->
-  <remote name="gl"
+  <remote name="gl-aqua"
           revision="a9-caf"
           fetch="https://gitlab.com/AquariOS/" />
 
+  <remote name="gl-du"
+          revision="p9x"
+          fetch="https://gitlab.com/DirtyUnicorns/" />
+
   <!-- Removes -->
-  <!-- remove-project name="kernel_google_bluecross" / -->
+  <remove-project name="kernel_google_bluecross" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
   <!-- Prebuilt -->
-  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="gl" groups="pdk" />
+  <!-- project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="gl-aqua" groups="pdk" / -->
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="gl-du" groups="pdk" />
 
   <!-- Kernel -->
-  <!-- project path="kernel/google/bluecross" name="kernel_google_bluecross" remote="me" / -->
+  <project path="kernel/google/bluecross" name="kernel_google_bluecross" remote="me" />
 
 </manifest>
