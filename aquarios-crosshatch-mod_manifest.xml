@@ -27,6 +27,8 @@
   <!-- Device -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" groups="pdk" remote="me" revision="a9-mod" />
   <project path="device/google/crosshatch-sepolicy" name="device_google_crosshatch-sepolicy" groups="pdk" remote="me" revision="a9" />
+
+  <!-- Vendor -->
   <project path="vendor/google" name="proprietary_vendor_google" remote="me" revision="a9" />
 
 </manifest>
