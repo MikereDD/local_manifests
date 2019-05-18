@@ -6,20 +6,19 @@
           fetch="https://github.com/MikereDD/" />
 
   <!-- Gitlab -->
-  <remote name="gl-du"
+  <remote name="gl-dd"
           revision="p9x"
-          fetch="https://gitlab.com/DirtyUnicorns/" />
+          fetch="https://gitlab.com/MikereDD/" />
 
   <!-- Removes -->
-  <!-- remove-project name="build" / -->
   <remove-project name="device_google_crosshatch" />
   <remove-project name="device_google_crosshatch-sepolicy" />
   <remove-project name="kernel_google_bluecross" />
-  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <!-- remove-project name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" / -->
   <remove-project name="proprietary_vendor_google" />
 
-  <!-- Prebuilt -->
-  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="gl-du" groups="pdk" />
+   <!-- Prebuilt -->
+   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="gl-dd" groups="pdk" />
 
   <!-- Kernel -->
   <project path="kernel/google/bluecross" name="kernel_google_bluecross" remote="me" revision="a9" />
