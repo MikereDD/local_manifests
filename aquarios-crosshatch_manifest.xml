@@ -3,17 +3,17 @@
 
    <!-- Github -->
    <remote name="me"
-   fetch="https://github.com/MikereDD/" />
+           fetch="https://github.com/MikereDD/" />
 
    <!-- Gitlab -->
-   <remote name="gl-du"
-   revision="p9x"
-   fetch="https://gitlab.com/DirtyUnicorns/" />
+   <remote name="gl-dd"
+           revision="p9x"
+           fetch="https://gitlab.com/MikereDD/" />
 
    <!-- Removes -->
    <!-- remove-project name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" / -->
 
    <!-- Prebuilt -->
-   <!-- project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="gl-du" groups="pdk" / -->
+   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="gl-dd" groups="pdk" />
 
 </manifest>
