@@ -3,17 +3,27 @@
 
    <!-- Github -->
    <remote name="me"
+           revision="x"
            fetch="https://github.com/MikereDD/" />
 
-   <!-- Gitlab -->
-   <remote name="gl-dd"
-           revision="p9x"
-           fetch="https://gitlab.com/MikereDD/" />
+   <remote name="du"
+            revision="q10x"
+            fetch="https://github.com/DirtyUnicorns/" />
 
    <!-- Removes -->
-   <!-- remove-project name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" / -->
+   <remove-project name="Aqua-devices/device_google_crosshatch" />
+   <remove-project name="Aqua-devices/device_google_crosshatch-sepolicy" />
+   <remove-project name="Aqua-devices/kernel_google_bluecross" />
+   <remove-project name="Aqua-devices/proprietary_vendor_google" />
 
-   <!-- Prebuilt -->
-   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="gl-dd" groups="pdk" />
+   <!-- Device -->
+   <project name="device_google_crosshatch" path="device/google/crosshatch" remote="me" />
+   <project name="android_device_google_crosshatch-sepolicy" path="device/google/crosshatch-sepolicy" remote="du" />
+
+   <!-- Kernel -->
+   <project name="kernel_google_bluecross" path="kernel/google/bluecross" remote="me" />
+
+   <!-- Vendor -->
+   <project name="android_vendor_google" path="vendor/google" remote="du" />
 
 </manifest>
